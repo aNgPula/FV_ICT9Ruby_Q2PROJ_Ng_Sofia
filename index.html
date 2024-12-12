@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q2Project</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+
+	h1{
+		margin-top: 100px;
+		color: #ffedb5;
+		font-family: forte;
+		font-size: 75px;
+
+	}
+
+	h4{
+		color: #ffd38c;
+		font-family: Constantia;
+	}
+
+	small{
+		color: #ffd38c;
+		font-family: Constantia;
+	}
+
+	#slider{
+		overflow: hidden;
+		width: 800px;
+		height: 350px;
+		border:5px solid #ffedb5;
+
+	}
+
+	#slider figure{
+		position: relative;
+		width: 500%;
+		margin: 0;
+		left: 0;
+		animation: 20s slider infinite;
+	}
+
+	#slider figure img {
+		float: left;
+		width: 20%;
+	}
+
+	@keyframes slider {
+		0% {
+			left: 0;
+		}
+		20% {
+			left: 0;
+		}
+		25% {
+			left:-100%;
+		}
+		45% {
+			left: -100%;
+		}
+		50% {
+			left: -200%;
+		}
+		70% {
+			left: -200%;
+		}
+		75% {
+			left: -300%;
+		}
+		95% {
+			left: -300%;
+		}
+		100%{
+			left: -400%;
+		}
+	}
+
+		body{
+		background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-delicious-cooked-wood-board-taobao-banner-e-commerce-picture-image_1075280.jpg);
+		background-repeat:no-repeat;
+		background-size: cover;
+		background-attachment:fixed;
+	}
+
+
+</style>
+
+</head>
+
+<body>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<div class="container container-fluid">
+			<a class="navbar-brand" href="index.html"><img src="https://png.pngtree.com/png-vector/20220708/ourmid/pngtree-fast-food-logo-png-image_5763171.png" style="width: 100px; height: 50px"></a>
+
+		<div class="collapse navbar-collapse">
+			<ul class="navbar-nav me-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="page1.html">Breakfast</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="page2.html">Lunch</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="page3.html">Dinner</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="page4.html">Dessert</a>
+				</li>
+					<li class="nav-item">
+					<a class="nav-link" href="page5.html">Submit Recipe</a>
+				</li>
+			</ul>
+
+			<form class="d-flex">
+				<input class="form-control" type="text" placeholder="search...">
+				<button class="btn btn-warning" type="button">Search</button>
+			</form>
+		</div>
+	</div>
+	</nav>
+
+	<center>
+	<h1> Greetings to Food Finder! </h1>
+	<br>
+	<h4>Welcome to Food Finder where you can find some of the best local meals in the Philippines!</h4>
+	</center>
+	<br>
+
+<br>
+<center>
+	<div id="slider">
+		<figure>
+			<img src="https://www.willflyforfood.net/wp-content/uploads/2022/08/bread-pan-de-sal.jpg.webp">
+			<img src="https://www.willflyforfood.net/wp-content/uploads/2021/12/filipino-desserts-suman.jpg.webp">
+			<img src="https://www.willflyforfood.net/wp-content/uploads/2022/10/filipino-breakfast-champorado.jpg.webp">
+			<img src="https://www.willflyforfood.net/wp-content/uploads/2022/04/filipino-snacks-bibingka.jpg.webp">
+			<img src="https://www.willflyforfood.net/wp-content/uploads/2022/08/bread-pan-de-sal.jpg.webp">
+		</figure>
+	</div>
+</center>
+<br>
+
+<center>
+<small> Submitted by Sofia Ng </small>
+</center>
+<br><br>
+
+</body>
